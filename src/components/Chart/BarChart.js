@@ -106,7 +106,7 @@ const Bar = ({ choice, x, total, onMouseEnter, onMouseLeave }) => {
             className="bar"
             style={{
               width: `${choice.percent * x}%`,
-              background: choice?.grouped ? "transparent" : "var(--green)",
+              background: choice?.grouped ? "transparent" : "var(--purple)",
             }}
           >
             {choice?.grouped?.results?.map((c, i) => (

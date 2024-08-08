@@ -7,11 +7,11 @@ export const Footer = () => {
       <div className="mx-auto grid max-w-screen-xl gap-y-8 gap-x-12 px-4 py-10 sm:px-20 md:grid-cols-2 xl:grid-cols-3 xl:px-10">
         <div className="max-w-sm">
           <div className="mb-6 flex h-10 items-center space-x-2">
-            <Logo />
+            <img src="/images/logo.png" className="h-[64px] w-[154px] min-h-[64px] min-w-[154px] z-0"/>
           </div>
           <div className="text-gray-500">
             Participate and let us know what working in tech really looks like
-            in Morocco 🇲🇦
+            in Uzbekistan
           </div>
         </div>
         <div className="">
@@ -20,35 +20,35 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
-                  href="https://geeksblabla.io"
+                  className="hover:text-purple-600 hover:underline"
+                  href="https://hiretruss.com/"
                   target="_blank"
                 >
-                  geeksblabla.io
+                  hiretruss.com
                 </a>
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
-                  href="https://stateofdev.ma"
+                  className="hover:text-purple-600 hover:underline"
+                  href="https://state-of-dev-uz.com"
                   target="_blank"
                 >
-                  stateofdev.ma
+                  state-of-dev-uz.com
                 </a>
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
-                  href="https://github.com/geeksblabla/awesome-morocco"
+                  className="hover:text-purple-600 hover:underline"
+                  href="https://hiretruss.com/blog/"
                   target="_blank"
                 >
-                  awesome-morocco.dev
+                  Our blog
                 </a>
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
-                  href="https://tally.so/r/meqj6E"
+                  className="hover:text-purple-600 hover:underline"
+                  href="https://hiretruss.com/careers-at-truss/ "
                   target="_blank"
                 >
                   Join the team
@@ -56,8 +56,8 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
-                  href="https://links.geeksblabla.io"
+                  className="hover:text-purple-600 hover:underline"
+                  href="https://hiretruss.com/about/"
                   target="_blank"
                 >
                   More
@@ -72,7 +72,7 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
+                  className="hover:text-purple-600 hover:underline"
                   href="https://www.youtube.com/c/GeeksBlaBla01"
                   target="_blank"
                 >
@@ -81,8 +81,8 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
-                  href="https://www.linkedin.com/company/geeksblabla-community/"
+                  className="hover:text-purple-600 hover:underline"
+                  href="http://linkedin.com/company/hiretruss/"
                   target="_blank"
                 >
                   Linkedin
@@ -90,40 +90,40 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
-                  href="https://www.facebook.com/geeksblabla"
+                  className="hover:text-purple-600 hover:underline"
+                  href="https://www.facebook.com/hiretruss"
                   target="_blank"
                 >
                   Facebook
                 </a>
               </li>
+              {/*<li>*/}
+              {/*  <a*/}
+              {/*    className="hover:text-purple-600 hover:underline"*/}
+              {/*    href="https://x.com/geeksblabla"*/}
+              {/*    target="_blank"*/}
+              {/*  >*/}
+              {/*    X("Previously Twitter")*/}
+              {/*  </a>*/}
+              {/*</li>*/}
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
-                  href="https://x.com/geeksblabla"
-                  target="_blank"
-                >
-                  X("Previously Twitter")
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-emerald-600 hover:underline"
-                  href="https://instagram.com/geeksblabla"
+                  className="hover:text-purple-600 hover:underline"
+                  href="https://www.instagram.com/hiretruss/"
                   target="_blank"
                 >
                   Instagram
                 </a>
               </li>
-              <li>
-                <a
-                  className="hover:text-emerald-600 hover:underline"
-                  href="https://github.com/geeksblabla"
-                  target="_blank"
-                >
-                  Github
-                </a>
-              </li>
+              {/*<li>*/}
+              {/*  <a*/}
+              {/*    className="hover:text-purple-600 hover:underline"*/}
+              {/*    href="https://github.com/geeksblabla"*/}
+              {/*    target="_blank"*/}
+              {/*  >*/}
+              {/*    Github*/}
+              {/*  </a>*/}
+              {/*</li>*/}
             </ul>
           </nav>
         </div>

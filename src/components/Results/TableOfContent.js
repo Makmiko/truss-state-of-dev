@@ -18,11 +18,11 @@ const TableOfContent = ({ titles }) => {
           if (!document.querySelector(selector)) return
           if (entry.intersectionRatio > 0.1) {
             const el = document.querySelector(selector)
-            el.classList.add("text-emerald-700")
+            el.classList.add("text-purple-700")
             el.classList.add("underline")
           } else {
             const el = document.querySelector(selector)
-            el.classList.remove("text-emerald-700")
+            el.classList.remove("text-purple-700")
             el.classList.remove("underline")
           }
         })
@@ -49,7 +49,7 @@ const TableOfContent = ({ titles }) => {
               <li className="text-lg my-3" key={`item-${index}`}>
                 <a
                   href={`#${slugify(title)}`}
-                  className="underline-offset-4 inline-flex items-center font-medium hover:text-emerald-600  transition-colors duration-200 hover:underline"
+                  className="underline-offset-4 inline-flex items-center font-medium hover:text-purple-600  transition-colors duration-200 hover:underline"
                 >
                   0{index + 1} - {title}
                 </a>

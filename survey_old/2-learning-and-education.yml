@@ -23,11 +23,11 @@ questions:
     required: true
     multiple: true
     choices:
-      - Uzbek
-      - Russian
+      - Arabic
+      - Amazigh
+      - French
       - English
-      - Tajik
-      - Other
+      - Others
 
   - label: Is English an obstacle to learning new technologies?
     required: true
@@ -35,7 +35,7 @@ questions:
       - Yes
       - No
 
-  - label: Do you think we need more content in Uzbek?
+  - label: Do you think we need more content in Darija?
     required: true
     choices:
       - Spoken

@@ -21,16 +21,22 @@ questions:
   - label: Where are you currently located?
     required: true
     choices:
-      - "Tashkent"
-      - "Samarkand"
-      - "Bukhara"
-      - "Fergana"
-      - "Nukus"
-      - "Termez"
-      - "Jizzakh"
-      - "Qarshi"
-      - "Kokand"
-      - Other
+      - "Rabat-Salé-Kénitra"
+      - "Casablanca-Settat"
+      - "Marrakech-Safi"
+      - "Tanger-Tétouan-Al Hoceïma"
+      - "L'Oriental"
+      - "Fès-Meknès"
+      - "Béni Mellal-Khénifra"
+      - "Drâa-Tafilalet"
+      - "Souss-Massa"
+      - "Guelmim-Oued Noun"
+      - "Laâyoune-Sakia El Hamra"
+      - "Dakhla-Oued Ed Dahab"
+      - Europe
+      - "US & Canada"
+      - "Middle East"
+      - Others
 
   - label: What is your occupation?
     required: true
@@ -96,7 +102,7 @@ questions:
       - Yes, in the next 12 months
       - Yes, in the next 24 months
       - Still hesitating
-      - Currently working outside Uzbekistan.
+      - Currently working outside Uzbekistan
       - No
 
   - label: If you are working abroad, do you have any plans to come back to Uzbekistan?

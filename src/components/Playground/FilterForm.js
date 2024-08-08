@@ -66,7 +66,7 @@ export default function FilterForm({
               append({ question_id: e.target.value, values: [] })
             }
           >
-            <option value="" style={{ color: "var(--green)" }}>
+            <option value="" style={{ color: "var(--purple)" }}>
               + Add filter question
             </option>
             {qs.map(q => (

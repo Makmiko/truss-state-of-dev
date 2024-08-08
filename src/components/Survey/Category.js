@@ -70,7 +70,7 @@ export default React.memo(({ category, next, setProgress }) => {
           {isRequired ? null : (
             <button
               type="button"
-              className="tooltips focus:outline-4 rounded-xl bg-white px-6 md:px-8 py-3 font-medium  text-emerald-600 underline border-emerald-600 transition  mr-2"
+              className="tooltips focus:outline-4 rounded-xl bg-white px-6 md:px-8 py-3 font-medium  text-purple-600 underline border-purple-600 transition  mr-2"
               onClick={() => nextQuestion()}
             >
               Skip
@@ -78,7 +78,7 @@ export default React.memo(({ category, next, setProgress }) => {
           )}
           <button
             type="button"
-            className="tooltips focus:outline-4 rounded-xl bg-emerald-600 px-8 md:px-10 py-3 font-medium text-white shadow-md outline-white transition hover:bg-emerald-500 "
+            className="tooltips focus:outline-4 rounded-xl bg-purple-600 px-8 md:px-10 py-3 font-medium text-white shadow-md outline-white transition hover:bg-purple-500 "
             onClick={() => nextQuestion()}
           >
             {loading ? "Loading..." : "Next"}

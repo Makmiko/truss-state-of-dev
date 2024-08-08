@@ -14,7 +14,7 @@
     bottom: -8px;
     position: relative;
     list-style: none;
-    font-family: Inter;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -24,8 +24,8 @@
     cursor: pointer;
 
     &--selected {
-      border-bottom: 2px solid var(--green);
-      color: var(--green);
+      border-bottom: 2px solid var(--purple);
+      color: var(--purple);
     }
 
     &--disabled {

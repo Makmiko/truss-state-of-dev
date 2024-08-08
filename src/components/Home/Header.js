@@ -4,10 +4,10 @@ import Logo from "../../assets/logo.svg"
 
 export const Header = () => {
   return (
-    <header className=" z-[99] relative flex bg-transparent max-w-screen-xl flex-col overflow-hidden px-4 py-4 text-emerald-900 md:mx-auto md:flex-row md:items-center">
+    <header className=" z-[99] relative flex bg-transparent max-w-screen-xl flex-col overflow-hidden px-4 py-4 text-purple-900 md:mx-auto md:flex-row md:items-center">
       <Link to="/">
         <div className="flex cursor-pointer items-center whitespace-nowrap text-2xl font-black">
-          <Logo />
+          <img src="/images/logo.png" className="h-[64px] w-[154px] min-h-[64px] min-w-[154px] z-0"/>
         </div>
       </Link>
       <input type="checkbox" className="peer hidden" id="navbar-open" />
@@ -53,7 +53,7 @@ export const Header = () => {
 }
 
 const RIcon = ({ year }) => (
-  <div className="flex cursor-pointer items-center text-emerald-900 hover:text-emerald-600  ">
+  <div className="flex cursor-pointer items-center text-purple-900 hover:text-purple-600  ">
     <div className="-mr-2 flex-shrink-0 ">
       <div className="h-8 w-8 mt-2">
         <svg

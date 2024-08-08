@@ -9,7 +9,7 @@ export const Hero = () => {
   return (
     <>
       <div className="relative mb-14">
-        <div className="absolute inset-x-0 top-0 lg:-top-14 bottom-0 lg:-bottom-14 overflow-hidden bg-emerald-50">
+        <div className="absolute inset-x-0 top-0 lg:-top-14 bottom-0 lg:-bottom-14 overflow-hidden bg-purple-50">
           <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white "></div>
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white "></div>
         </div>
@@ -17,23 +17,23 @@ export const Hero = () => {
           <div className="flex flex-col items-center justify-between lg:flex-row ">
             <div className="my-16">
               <div className="lg:max-w-xl lg:pr-5 ">
-                <h2 className="mb-6 max-w-lg text-4xl text-center font-light leading-snug tracking-tight text-emerald-600 sm:text-6xl sm:text-left ">
+                <h2 className="mb-6 max-w-lg text-4xl text-center font-light leading-snug tracking-tight text-purple-600 sm:text-6xl sm:text-left ">
                   State Of Dev <br />
                   In{" "}
-                  <span className="my-1 inline-block border-b-8 border-emerald-600 font-bold text-emerald-600 ">
+                  <span className="my-1 inline-block border-b-8 border-purple-600 font-bold text-purple-600 ">
                     {" "}
-                    Morocco 2023{" "}
+                    Uzbekistan 2023{" "}
                   </span>
                 </h2>
                 <p className=" lg: mt-1 text-sm text-center tracking-normal text-gray-800 lg:mt-1 lg:text-xl lg:text-left">
                   Participate and let us know what working in tech really looks
-                  like in Morocco 🇲🇦
+                  like in Uzbekistan
                 </p>
               </div>
               <div className="mt-10 flex flex-col items-center md:items-stretch md:flex-row ">
                 <Link to="/beforeStart">
-                  <div className="relative mb-3  inline-flex h-12 w-full items-center justify-center rounded-lg bg-emerald-700 px-6 font-medium tracking-wide text-white shadow-md transition duration-200 md:mr-4 md:mb-0 md:w-auto focus:outline-none hover:bg-emerald-800">
-                    <div className="absolute left-0 -bottom-10 inline-flex h-10 w-10 -rotate-12 -scale-x-100 text-emerald-700">
+                  <div className="relative mb-3  inline-flex h-12 w-full items-center justify-center rounded-lg bg-purple-700 px-6 font-medium tracking-wide text-white shadow-md transition duration-200 md:mr-4 md:mb-0 md:w-auto focus:outline-none hover:bg-purple-800">
+                    <div className="absolute left-0 -bottom-10 inline-flex h-10 w-10 -rotate-12 -scale-x-100 text-purple-700">
                       <svg
                         viewBox="0 0 82 35"
                         fill="none"
@@ -59,7 +59,7 @@ export const Hero = () => {
                 <Link
                   to="/2022"
                   aria-label=""
-                  className="underline-offset-2  items-center font-semibold text-emerald-600 underline transition-colors duration-200 hover:underline pt-8 md:pt-0 bg-transparent sm:inline-flex hidden"
+                  className="underline-offset-2  items-center font-semibold text-purple-600 underline transition-colors duration-200 hover:underline pt-8 md:pt-0 bg-transparent sm:inline-flex hidden"
                 >
                   Read last year report
                 </Link>
@@ -87,7 +87,7 @@ export const YoutubeVideo = () => {
 
   return (
     <>
-      <div className="relative shadow-xl shadow-emerald-200/50  lg:w-1/2">
+      <div className="relative shadow-xl shadow-purple-200/50  lg:w-1/2">
         <img
           className="h-56 w-full rounded-lg object-cover shadow-lg sm:h-96"
           src="/images/video-cover.jpeg"
@@ -129,7 +129,7 @@ export const YoutubeVideo = () => {
             <div className="fixed inset-0 z-999 bg-gray-900 bg-opacity-75 transition-opacity" />
           </Transition.Child>
 
-          <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
+          <div className="fixed inset-0 z-[100] w-screen overflow-y-auto">
             <div className="flex min-h-full items-center justify-center p-4 text-center sm:items-center sm:p-0 ">
               <Transition.Child
                 as={Fragment}

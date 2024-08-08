@@ -7,7 +7,7 @@ export const AuthContainer = ({ children }) => {
 
   if (!isSurveyReady) {
     return (
-      <div className="min-h-screen justify-start text-center items-center pt-10 bg-emerald-50/50">
+      <div className="min-h-screen justify-start text-center items-center pt-10 bg-purple-50/50">
         Initializing Survey...
       </div>
     )

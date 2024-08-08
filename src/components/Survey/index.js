@@ -35,7 +35,7 @@ const Survey = ({ data }) => {
   return (
     <>
       <Steps selectedIndex={index} />
-      <LoadingBar color="#3dbe71" progress={progress} height={10} />
+      <LoadingBar color="#A24D82" progress={progress} height={10} />
       <main className="flex flex-1 justify-center items-center">
         <Category
           category={category}

@@ -23,7 +23,7 @@
     "label": "Where are you currently located?",
     "required": true,
     "multiple": null,
-    "choices": ["Morocco", "Europe", "US", "Others"]
+    "choices": ["Uzbekistan", "Europe", "US", "Others"]
   },
   "profile-q-3": {
     "label": "What is your current role?",
@@ -86,13 +86,13 @@
     "choices": ["Not enough", "Enough to start", "Everything I needed"]
   },
   "profile-q-8": {
-    "label": "Do you have any plans to work outside Morocco in the next 2 years?",
+    "label": "Do you have any plans to work outside Uzbekistan in the next 2 years?",
     "required": true,
     "multiple": null,
     "choices": ["Yes", "No"]
   },
   "profile-q-9": {
-    "label": "If you are working abroad, do you have any plans to come back to Morocco?",
+    "label": "If you are working abroad, do you have any plans to come back to Uzbekistan?",
     "required": null,
     "multiple": null,
     "choices": ["Yes", "No"]

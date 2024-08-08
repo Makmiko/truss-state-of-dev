@@ -66,8 +66,9 @@ questions:
     choices:
       - Live/online events
       - In-person events?
+      - Li ja bismillah
 
-  - label: "How do you evaluate the Uzbek Tech Community?"
+  - label: "How do you evaluate the Moroccan Tech Community?"
     required: true
     choices:
       - Bad

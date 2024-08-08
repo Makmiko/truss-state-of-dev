@@ -27,7 +27,7 @@
     display: none;
   }
   h2 {
-    font-family: Inter;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -36,7 +36,7 @@
   }
 
   li {
-    font-family: Inter;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -48,7 +48,7 @@
       color: inherit;
     }
     &.active {
-      color: var(--green);
+      color: var(--purple);
     }
     &.active::before {
       content: "";
@@ -57,7 +57,7 @@
       position: absolute;
       top: 1.4rem;
       left: -16px;
-      background-color: var(--green);
+      background-color: var(--purple);
     }
   }
   div {

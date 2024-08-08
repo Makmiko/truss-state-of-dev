@@ -7,7 +7,7 @@ export default function Index() {
       <div className="thanks">
         <div className="container">
           <div className="main">
-            <img src="/images/tarbouch.png" />
+            {/*<img src="/images/tarbouch.png" />*/}
             <h1> 404 {`:)`} </h1>
           </div>
         </div>

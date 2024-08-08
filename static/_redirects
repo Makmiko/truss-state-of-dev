@@ -1,5 +1,5 @@
-# Redirects from survey pages as survey is now closed
+# If survey is closed redirects can be enabled here to disable it
 
-/beforeStart /
-/start /
-/thanks /
+# /beforeStart /
+# /start /
+# /thanks /

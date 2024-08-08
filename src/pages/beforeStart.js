@@ -8,7 +8,7 @@ const rules = [
   "We care about privacy; that's why all your answers are completely anonymous. We only rely on anonymous sessions to avoid spam",
   "All Questions are required unless you have a skip button",
   "The survey is divided into 6 part: Profile, Learning & Education,AI, Work, Technology and Community",
-  "Please be honest. Our goal is to understand the Moroccan IT market and share results with the community.",
+  "Please be honest. Our goal is to understand the Uzbek IT market and share results with the community.",
   "Do not refresh the questions page before submitting your answers",
 ]
 
@@ -27,7 +27,7 @@ const Rules = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="shrink-0 h-6 w-6 text-emerald-700"
+                className="shrink-0 h-6 w-6 text-purple-700"
               >
                 <path
                   fillRule="evenodd"
@@ -42,7 +42,7 @@ const Rules = () => {
         <div className=" flex flex-row-reverse">
           <Link
             to="/start"
-            className="focus:outline-4 rounded-xl bg-emerald-700 px-4 py-3 font-medium text-white shadow-md outline-white transition hover:bg-emerald-500"
+            className="focus:outline-4 rounded-xl bg-purple-700 px-4 py-3 font-medium text-white shadow-md outline-white transition hover:bg-purple-500"
           >
             Let’s do it
           </Link>

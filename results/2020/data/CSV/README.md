@@ -122,7 +122,7 @@ This notebook :notebook: applies some basic preproccessing on the raw survey res
       <th>choices</th>
       <td>[Male, Female]</td>
       <td>[Younger than 15 years, 15 to 19 years, 20 to ...</td>
-      <td>[Morocco, Europe, US, Others]</td>
+      <td>[Uzbekistan, Europe, US, Others]</td>
       <td>...</td>
       <td>[Yes, NO, I don’t know Facebook Developer circ...</td>
       <td>[Bad, Not Bad, Good, Excellent]</td>
@@ -235,7 +235,7 @@ This notebook :notebook: applies some basic preproccessing on the raw survey res
       <th>choices</th>
       <td>[Male, Female]</td>
       <td>[Younger than 15 years, 15 to 19 years, 20 to ...</td>
-      <td>[Morocco, Europe, US, Others]</td>
+      <td>[Uzbekistan, Europe, US, Others]</td>
       <td>...</td>
       <td>[Yes, NO, I don’t know Facebook Developer circ...</td>
       <td>[Bad, Not Bad, Good, Excellent]</td>

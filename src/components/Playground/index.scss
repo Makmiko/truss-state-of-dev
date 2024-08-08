@@ -39,7 +39,7 @@
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: Inter;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -51,7 +51,7 @@
     select {
       margin: 0.2rem 0px;
       width: 100%;
-      font-family: Inter;
+      font-family: 'Be Vietnam Pro', sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 16px;
@@ -151,7 +151,7 @@
 
         /* When the checkbox is checked, add a blue background */
         .check-container input:checked ~ .checkmark {
-          background-color: var(--green);
+          background-color: var(--purple);
         }
 
         /* Create the checkmark/indicator (hidden when not checked) */

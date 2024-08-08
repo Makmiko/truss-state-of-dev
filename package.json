@@ -1,18 +1,21 @@
 {
-  "name": "stateofdev.ma",
+  "name": "stateofdev.uz",
   "private": true,
-  "description": "stateofdev.ma website code source ",
+  "description": "stateofdev.uz website code source ",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "survey-gen": "node scripts/generate-questions-file.js",
+    "survey-export": "node scripts/export-results.js",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "jest ",
-    "netlify": "netlify",
+    "netlify-dev": "netlify dev",
+    "deploy": "netlify deploy",
     "export-result": "NODE_ENV=development node ./scripts/export-results.js"
   },
   "dependencies": {
@@ -78,9 +81,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/geeksblabla/stateofdev.ma"
+    "url": "https://github.com/geeksblabla/stateofdev.uz"
   },
   "bugs": {
-    "url": "https://github.com/geeksblabla/stateofdev.ma/issues"
+    "url": "https://github.com/geeksblabla/stateofdev.uz/issues"
   }
 }

@@ -19,7 +19,7 @@ export const MDXContent = ({ content, year }) => (
       Chart: props => <Chart year={year} {...props} />,
     }}
   >
-    <article className="lg:pl-16 pt-16  prose max-w-none prose-img:rounded-xl  prose-a:text-emerald-600">
+    <article className="lg:pl-16 pt-16  prose max-w-none prose-img:rounded-xl  prose-a:text-purple-600">
       {content.map((c, i) => (
         <section id={slugify(c.title)} key={`section-${i}`}>
           <MDXRenderer>{c.body}</MDXRenderer>

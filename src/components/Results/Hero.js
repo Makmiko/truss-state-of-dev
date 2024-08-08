@@ -10,7 +10,7 @@ import { Link } from "gatsby"
 const data = {
   2020: {
     year: 2020,
-    description: `In November 2020,  2287 developers from Morocco 🇲🇦
+    description: `In November 2020,  2287 developers from Uzbekistan
   told us about their jobs satisfaction, salaries, and community
   contribution, how they learn and level up, which tools they’re
   using, and what they want to learn next.`,
@@ -18,7 +18,7 @@ const data = {
 
   2021: {
     year: 2021,
-    description: `In November 2021, 1098 developers from Morocco 🇲🇦
+    description: `In November 2021, 1098 developers from Uzbekistan
   told us about their jobs satisfaction, salaries, and community
   contribution, how they learn and level up, which tools they’re
   using, and what they want to learn next.`,
@@ -26,14 +26,14 @@ const data = {
 
   2022: {
     year: 2022,
-    description: `In December 2022, 1617 developers from Morocco 🇲🇦
+    description: `In December 2022, 1617 developers from Uzbekistan
   told us about their jobs satisfaction, salaries, and community
   contribution, how they learn and level up, which tools they’re
   using, and what they want to learn next.`,
   },
   2023: {
     year: 2023,
-    description: `In December 2023, 1764 developers from Morocco 🇲🇦
+    description: `In December 2023, 1764 developers from Uzbekistan
   told us about their jobs satisfaction, salaries, and community
   contribution, what they think about AI, which tools they’re
   using, and what they want to learn next.`,
@@ -42,11 +42,11 @@ const data = {
 
 export const Hero = ({ year }) => (
   <div className="relative py-12 sm:py-16 lg:pt-20 lg:pb-40  ">
-    <div className="absolute inset-x-0 top-0 lg:-top-14 bottom-0 lg:-bottom-14 overflow-hidden bg-emerald-50">
+    <div className="absolute inset-x-0 top-0 lg:-top-14 bottom-0 lg:-bottom-14 overflow-hidden bg-purple-50">
       <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white "></div>
       <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white "></div>
     </div>
-    <div className="relative mx-auto hidden max-w-screen-lg md:block text-emerald-700">
+    <div className="relative mx-auto hidden max-w-screen-lg md:block text-purple-700">
       <Crea4 className="absolute w-32 right-0 -scale-x-100" />
       <Crea2 className="absolute w-32 h-32   " />
     </div>
@@ -56,7 +56,7 @@ export const Hero = ({ year }) => (
           State Of Dev In
           <span className="relative inline-flex justify-center whitespace-nowrap font-bold">
             <svg
-              className="absolute -bottom-8 hidden w-2/3 text-emerald-600 sm:block"
+              className="absolute -bottom-8 hidden w-2/3 text-purple-600 sm:block"
               viewBox="0 0 490 42"
               fill="none"
             >
@@ -69,7 +69,7 @@ export const Hero = ({ year }) => (
                 fill="currentColor"
               />
             </svg>
-            Morocco {data[year].year} 🇲🇦
+            Uzbekistan {data[year].year}
           </span>
         </h1>
         <p className="mx-auto mt-10  text-base leading-7 text-gray-600">
@@ -79,9 +79,9 @@ export const Hero = ({ year }) => (
         <div className="mt-16 flex flex-col items-center justify-center md:flex-row">
           <a
             href="#overview"
-            className="relative mb-3  inline-flex h-12 w-full items-center justify-center rounded-lg bg-emerald-700 px-6 font-medium tracking-wide text-white shadow-md transition duration-200 md:mr-4 md:mb-0 md:w-auto focus:outline-none hover:bg-emerald-800"
+            className="relative mb-3  inline-flex h-12 w-full items-center justify-center rounded-lg bg-purple-700 px-6 font-medium tracking-wide text-white shadow-md transition duration-200 md:mr-4 md:mb-0 md:w-auto focus:outline-none hover:bg-purple-800"
           >
-            <div className="absolute left-0 -bottom-10 inline-flex h-10 w-10 -rotate-12 -scale-x-100 text-emerald-700">
+            <div className="absolute left-0 -bottom-10 inline-flex h-10 w-10 -rotate-12 -scale-x-100 text-purple-700">
               <svg
                 viewBox="0 0 82 35"
                 fill="none"
@@ -106,7 +106,7 @@ export const Hero = ({ year }) => (
           <a
             href="#video-episode"
             aria-label=""
-            className="underline-offset-2 inline-flex items-center font-semibold text-emerald-600 underline transition-colors duration-200 hover:underline"
+            className="underline-offset-2 inline-flex items-center font-semibold text-purple-600 underline transition-colors duration-200 hover:underline"
           >
             Watch GeeksBlaBla Episode
           </a>

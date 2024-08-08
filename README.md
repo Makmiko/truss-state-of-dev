@@ -2,16 +2,16 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
-  <a href="https://stateofdev.ma">
+  <a href="https://stateofdev.uz">
   <img width="477" alt="logo" src="https://user-images.githubusercontent.com/11137944/101990595-01f5f280-3ca8-11eb-8873-95a6234fb096.png">
   </a>
 </p>
 <h2 align="center">
-  State Of Dev in Morocco Website
+  State Of Dev in Uzbekistan Website
 </h2>
 <hr />
 
-StateOfDev.ma is a survey centered around software developers in Morocco by GeeksBlaBla Morocco Community.
+StateOfDev.uz is a survey centered around software developers in Uzbekistan by GeeksBlaBla Uzbekistan Community.
 
 We wanted to know how we can help and support each other, and overall be able to better respond to developers evolving needs.
 
@@ -22,7 +22,7 @@ The website is built using [Gatsbyjs](http://gatsbyjs.org) and [Netlify](https:/
 1.  **Fork and clone the project**
 
     ```sh
-    git clone git@github.com:your-username/stateofdev.ma.git
+    git clone git@github.com:your-username/stateofdev.uz.git
     ```
 
 2.  **Configure Project and Start developing.**
@@ -55,7 +55,7 @@ RECAPTCHA_SECRET_KEY=
 - Navigate into your new website's directory and start it up.
 
 ```sh
-cd stateofdev.ma/
+cd stateofdev.uz/
 yarn install
 yarn netlify dev
 ```
@@ -66,7 +66,7 @@ Your website is now running at `http://localhost:8888`
 
 ## 🧐 Want to contribute ?
 
-If you want to contribute check out the [help wanted](https://github.com/geeksblabla/stateofdev.ma/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22+sort%3Aupdated-desc) issues for things that need fixing, or suggest some new features by opening new issues.
+If you want to contribute check out the [help wanted](https://github.com/geeksblabla/stateofdev.uz/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22+sort%3Aupdated-desc) issues for things that need fixing, or suggest some new features by opening new issues.
 
 ## Licensing
 
@@ -84,8 +84,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="16.66%"><a href="https://elazizi.com/"><img src="https://avatars0.githubusercontent.com/u/11137944?v=4?s=120" width="120px;" alt="Youssouf EL AZIZI"/><br /><sub><b>Youssouf EL AZIZI</b></sub></a><br /><a href="https://github.com/geeksblabla/stateofdev.ma/commits?author=yjose" title="Code">💻</a> <a href="https://github.com/geeksblabla/stateofdev.ma/commits?author=yjose" title="Documentation">📖</a> <a href="#content-yjose" title="Content">🖋</a> <a href="#ideas-yjose" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="http://aboullaite.me/"><img src="https://avatars0.githubusercontent.com/u/2836850?v=4?s=120" width="120px;" alt="Mohammed Aboullaite"/><br /><sub><b>Mohammed Aboullaite</b></sub></a><br /><a href="https://github.com/geeksblabla/stateofdev.ma/commits?author=aboullaite" title="Code">💻</a> <a href="#content-aboullaite" title="Content">🖋</a> <a href="#ideas-aboullaite" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://elazizi.com/"><img src="https://avatars0.githubusercontent.com/u/11137944?v=4?s=120" width="120px;" alt="Youssouf EL AZIZI"/><br /><sub><b>Youssouf EL AZIZI</b></sub></a><br /><a href="https://github.com/geeksblabla/stateofdev.uz/commits?author=yjose" title="Code">💻</a> <a href="https://github.com/geeksblabla/stateofdev.uz/commits?author=yjose" title="Documentation">📖</a> <a href="#content-yjose" title="Content">🖋</a> <a href="#ideas-yjose" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="http://aboullaite.me/"><img src="https://avatars0.githubusercontent.com/u/2836850?v=4?s=120" width="120px;" alt="Mohammed Aboullaite"/><br /><sub><b>Mohammed Aboullaite</b></sub></a><br /><a href="https://github.com/geeksblabla/stateofdev.uz/commits?author=aboullaite" title="Code">💻</a> <a href="#content-aboullaite" title="Content">🖋</a> <a href="#ideas-aboullaite" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/ismailElazizi"><img src="https://avatars1.githubusercontent.com/u/22155037?v=4?s=120" width="120px;" alt="Ismail El Azizi"/><br /><sub><b>Ismail El Azizi</b></sub></a><br /><a href="#design-ismailElazizi" title="Design">🎨</a> <a href="#content-ismailElazizi" title="Content">🖋</a> <a href="#ideas-ismailElazizi" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://twitter.com/enlamp"><img src="https://avatars2.githubusercontent.com/u/4036528?v=4?s=120" width="120px;" alt="djalal"/><br /><sub><b>djalal</b></sub></a><br /><a href="#content-djalal" title="Content">🖋</a> <a href="#ideas-djalal" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/iMeriem"><img src="https://avatars1.githubusercontent.com/u/11720929?v=4?s=120" width="120px;" alt="Meriem Zaid"/><br /><sub><b>Meriem Zaid</b></sub></a><br /><a href="#content-iMeriem" title="Content">🖋</a> <a href="#ideas-iMeriem" title="Ideas, Planning, & Feedback">🤔</a></td>
@@ -104,7 +104,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="16.66%"><a href="https://www.linkedin.com/in/sohayb-elamraoui/"><img src="https://avatars.githubusercontent.com/u/32344494?v=4?s=120" width="120px;" alt="el amraoui Sohayb"/><br /><sub><b>el amraoui Sohayb</b></sub></a><br /><a href="#content-Elamraoui-Sohayb" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="http://yezz.me"><img src="https://avatars.githubusercontent.com/u/52716203?v=4?s=120" width="120px;" alt="Yasser Tahiri"/><br /><sub><b>Yasser Tahiri</b></sub></a><br /><a href="#content-yezz123" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://www.iduoad.com"><img src="https://avatars.githubusercontent.com/u/25715906?v=4?s=120" width="120px;" alt="Mohammed Daoudi"/><br /><sub><b>Mohammed Daoudi</b></sub></a><br /><a href="#content-Iduoad" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/bilalix"><img src="https://avatars.githubusercontent.com/u/2496324?v=4?s=120" width="120px;" alt="Bilal"/><br /><sub><b>Bilal</b></sub></a><br /><a href="#content-bilalix" title="Content">🖋</a> <a href="https://github.com/geeksblabla/stateofdev.ma/commits?author=bilalix" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/bilalix"><img src="https://avatars.githubusercontent.com/u/2496324?v=4?s=120" width="120px;" alt="Bilal"/><br /><sub><b>Bilal</b></sub></a><br /><a href="#content-bilalix" title="Content">🖋</a> <a href="https://github.com/geeksblabla/stateofdev.uz/commits?author=bilalix" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

@@ -107,19 +107,19 @@
   },
   "profile-q-7": {
     "multiple": null,
-    "label": "Do you have any plans to work outside Morocco?",
+    "label": "Do you have any plans to work outside Uzbekistan?",
     "required": true,
     "choices": [
       "Yes, in the next 12 months",
       "Yes, in the next 24 months",
       "Still hesitating",
-      "Currently working outside Morocco",
+      "Currently working outside Uzbekistan",
       "No"
     ]
   },
   "profile-q-8": {
     "multiple": null,
-    "label": "If you are working abroad, do you have any plans to come back to Morocco?",
+    "label": "If you are working abroad, do you have any plans to come back to Uzbekistan?",
     "choices": ["Yes", "Still hesitating", "No"]
   },
   "profile-q-9": {
@@ -247,7 +247,7 @@
   },
   "work-q-5": {
     "multiple": null,
-    "label": "If you are working full-time contract in Morocco(CDI), Your NET salary range per month in MAD is:",
+    "label": "If you are working full-time contract in Uzbekistan(CDI), Your NET salary range per month in MAD is:",
     "choices": [
       "< 4 000",
       "4 000 - 6 000",
@@ -266,7 +266,7 @@
   },
   "work-q-6": {
     "multiple": null,
-    "label": "If you are working as a freelancer in Morocco, Your salary range per day in MAD(TJM) is:",
+    "label": "If you are working as a freelancer in Uzbekistan, Your salary range per day in MAD(TJM) is:",
     "choices": [
       "< 1 000",
       "1 000 - 1 500",
@@ -280,7 +280,7 @@
   },
   "work-q-7": {
     "multiple": null,
-    "label": "If you are working full-time contract outside Morocco, Your gross salary range per year in USD is:",
+    "label": "If you are working full-time contract outside Uzbekistan, Your gross salary range per year in USD is:",
     "choices": [
       "< 20 000",
       "20 000 - 25 000",
@@ -297,7 +297,7 @@
   },
   "work-q-8": {
     "multiple": null,
-    "label": "If you are working as a freelancer outside Morocco, Your daily gross wage in USD is:",
+    "label": "If you are working as a freelancer outside Uzbekistan, Your daily gross wage in USD is:",
     "choices": [
       "< 200",
       "200 - 500",

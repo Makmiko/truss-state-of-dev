@@ -25,7 +25,7 @@ export const Actions = ({ id }) => {
         <Share
           shareUrl={
             location.pathname !== "/playground/"
-              ? `https://stateofdev.ma/#${id}`
+              ? `https://state-of-dev-uz.com/#${id}`
               : location.href
           }
         />

@@ -8,7 +8,7 @@ const links = {
 export const Episode = ({ year = 2020 }) => {
   return (
     <section
-      className="bg-emerald-500 px-2 py-12 justify-center align-middle items-center"
+      className="bg-purple-500 px-2 py-12 justify-center align-middle items-center"
       id="video-episode"
     >
       <div className="relative w-full max-w-[1000px] m-auto">
