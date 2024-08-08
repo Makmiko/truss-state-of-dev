@@ -15,7 +15,9 @@
     "clean": "gatsby clean",
     "test": "jest ",
     "netlify-dev": "netlify dev",
-    "deploy": "netlify deploy",
+    "netlify-build": "netlify build",
+    "netlify-deploy:dev": "netlify deploy",
+    "netlify-deploy:prod": "netlify deploy --prod",
     "export-result": "NODE_ENV=development node ./scripts/export-results.js"
   },
   "dependencies": {
