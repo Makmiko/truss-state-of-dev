@@ -186,7 +186,7 @@ input[type="checkbox"]:checked ~ .quiz-form__ans {
   }
 }
 .thanks {
-  background: var(--purple-gradient);
+  //background: var(--purple-gradient);
   .container {
     min-height: calc(100vh - 130px);
     display: flex;
@@ -196,19 +196,22 @@ input[type="checkbox"]:checked ~ .quiz-form__ans {
     flex: 1;
     max-width: 600px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     align-self: center;
     text-align: center;
 
     h1 {
-      font-size: 3.5em;
-      line-height: 2.912 * $mode;
+      //font-size: 3.5em;
+      //line-height: 2.912 * $mode;
+      font-family: Caprasimo, cursive;
     }
     @include breakpoint(mobileonly) {
       h1 {
-        font-size: 2.5em;
-        line-height: 1.912 * $mode;
+        font-family: Caprasimo, cursive;
+        //font-size: 2.5em;
+        //line-height: 1.912 * $mode;
       }
     }
   }

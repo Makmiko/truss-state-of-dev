@@ -7438,6 +7438,14 @@ gatsby-plugin-google-fonts@^1.0.1:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-1.0.1.tgz#d71054f7bf207b9a8da227380369e18e6f4e0201"
   integrity sha512-p1NVkn27GUnDA5qHM+Z4cCcLCJIardzZXMon3640sT4xuL/AZJbsx3HEt2KY/5oZu0UXIkytkxzV2Da4rQeUIg==
 
+gatsby-plugin-google-tagmanager@^3.14.0:
+  version "3.15.0"
+  resolved "https://lincolnlabs-admin-platform-691064348660.d.codeartifact.us-east-1.amazonaws.com/npm/platform-npm-packages/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-3.15.0.tgz#624ffc1e569c788d45742fed28253ee9f8c938b4"
+  integrity sha512-BofhsM833JguXUjWplhkvR/L7w8ol41R6JHTIVB5A27EVPWBm3NaBzboLyuMhzKvrubspDgWq6+5tveG0wmAAg==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    web-vitals "^1.1.2"
+
 gatsby-plugin-graphql-codegen@^2.7.3:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-graphql-codegen/-/gatsby-plugin-graphql-codegen-2.7.3.tgz#78a35556f565c8bf2c82a74cdea7ca80ada85310"

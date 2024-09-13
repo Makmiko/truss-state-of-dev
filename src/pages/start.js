@@ -20,6 +20,7 @@ const SurveyData = graphql`
             choices
             required
             multiple
+            fitContent
           }
         }
       }

@@ -7,8 +7,8 @@ export default function Index() {
       <div className="thanks">
         <div className="container">
           <div className="main">
-            {/*<img src="/images/tarbouch.png" />*/}
-            <h1> 404 {`:)`} </h1>
+            <img src="/images/tashkent-hero.png" />
+            <h1 className="text-purple-600"> Oops! That page can’t be found. </h1>
           </div>
         </div>
       </div>

@@ -1,13 +1,12 @@
 import { Link } from "gatsby"
 import React from "react"
-import Logo from "../../assets/logo.svg"
 
 export const Header = () => {
   return (
     <header className=" z-[99] relative flex bg-transparent max-w-screen-xl flex-col overflow-hidden px-4 py-4 text-purple-900 md:mx-auto md:flex-row md:items-center">
       <Link to="/">
         <div className="flex cursor-pointer items-center whitespace-nowrap text-2xl font-black">
-          <img src="/images/logo.png" className="h-[64px] w-[154px] min-h-[64px] min-w-[154px] z-0"/>
+          <img src="/images/logo.svg" className="h-[64px]"/>
         </div>
       </Link>
       <input type="checkbox" className="peer hidden" id="navbar-open" />

@@ -9,8 +9,8 @@ export default ({
   required,
   multiple,
 }) => {
-  const { label, choices } = question
-  const fitContent = choices.length > 10
+  const { label, choices, fitContent: fitProp } = question
+  const fitContent = typeof fitProp === 'boolean' ? fitProp : choices.length > 10
 
   return (
     <div

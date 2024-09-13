@@ -2,7 +2,7 @@ import React from "react"
 import { Hero } from "./Hero"
 import { Why } from "./Why"
 import { Interested } from "./Interested"
-import { PastReports } from "./PastReports"
+import { InviteCards } from "./InviteCards"
 import { FAQ } from "./FAQ"
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <Hero />
       <Why />
-      <PastReports />
+      <InviteCards />
       <FAQ />
       <Interested />
     </>

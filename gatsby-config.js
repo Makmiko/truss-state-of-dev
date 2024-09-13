@@ -33,6 +33,12 @@ module.exports = {
 		`gatsby-plugin-react-helmet`,
 		`gatsby-transformer-yaml`,
 		{
+			resolve: 'gatsby-plugin-google-tagmanager',
+			options: {
+				id: 'GTM-M3JHLB7P',
+			},
+		},
+		{
 			resolve: 'gatsby-plugin-next-seo',
 			options: {
 				openGraph: {

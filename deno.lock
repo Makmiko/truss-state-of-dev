@@ -90,6 +90,7 @@
         "npm:gatsby-plugin-google-analytics@^3.14.0",
         "npm:gatsby-plugin-google-fonts-v2@^1.0.0",
         "npm:gatsby-plugin-google-fonts@^1.0.1",
+        "npm:gatsby-plugin-google-tagmanager@^3.14.0",
         "npm:gatsby-plugin-mdx@^2.14.0",
         "npm:gatsby-plugin-next-seo@^1.8.0",
         "npm:gatsby-plugin-postcss@^5.0.0",

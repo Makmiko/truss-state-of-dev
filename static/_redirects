@@ -3,3 +3,5 @@
 # /beforeStart /
 # /start /
 # /thanks /
+
+https://state-of-dev-uz.com/* https://stateofdev.uz/:splat 301!
