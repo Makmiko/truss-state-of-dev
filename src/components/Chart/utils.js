@@ -9,6 +9,9 @@ import Questions_2022 from "../../../results/2022/data/questions.json"
 import DATA_2023 from "../../../results/2023/data/results.json"
 import Questions_2023 from "../../../results/2023/data/questions.json"
 
+import DATA_2024 from "../../../results/2024/data/results.json"
+import Questions_2024 from "../../../results/2024/data/questions.json"
+
 const reducer = (accumulator, currentValue) => {
   if (currentValue === undefined || currentValue === null) return accumulator
   if (Array.isArray(currentValue)) {
@@ -48,6 +51,7 @@ const getDataByYear = year => {
   if (year === 2021) return [DATA_2021, Questions_2021]
   if (year === 2022) return [DATA_2022, Questions_2022]
   if (year === 2023) return [DATA_2023, Questions_2023]
+  if (year === 2024) return [DATA_2024, Questions_2024]
 
   return [DATA_2020, Questions_2020]
 }

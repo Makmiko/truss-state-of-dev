@@ -8,8 +8,8 @@ questions:
       - Self-taught (no diploma or other field's diploma).
       - University / Public school
       - Private school
-      - Vocational School (bootcamps, technical skills  ...)
-      - Coding schools (1337, YouCode, etc.)
+      - Technical schools (bootcamps, technical skills  ...)
+      - IT Academy
       - Other
 
   - label: Do you think school gives you enough knowledge to start your professional career?
@@ -27,6 +27,7 @@ questions:
       - Russian
       - English
       - Tajik
+      - Karakalpak
       - Other
 
   - label: Is English an obstacle to learning new technologies?
@@ -46,6 +47,7 @@ questions:
   - label: What are your preferred platforms for learning?
     required: true
     multiple: true
+    fitContent: false
     choices:
       - YouTube
       - Paid platforms

@@ -22,15 +22,18 @@ questions:
     required: true
     choices:
       - "Tashkent"
-      - "Samarkand"
+      - "Andijan"
       - "Bukhara"
       - "Fergana"
-      - "Nukus"
-      - "Termez"
       - "Jizzakh"
-      - "Qarshi"
-      - "Kokand"
-      - Other
+      - "Namangan"
+      - "Navoiy"
+      - "Qashqadaryo"
+      - "Samarqand"
+      - "Sirdaryo"
+      - "Surxondaryo"
+      - "Xorazm"
+      - "Republic of Karakalpakstan"
 
   - label: What is your occupation?
     required: true

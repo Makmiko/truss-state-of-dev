@@ -14,6 +14,12 @@ questions:
       - Internship
       - Student
 
+  - label: "Is your employer’s headquarters in Uzbekistan?"
+    required: true
+    choices:
+      - Yes
+      - No
+
   - label: How often do you work overtime or beyond the normal time expectation of your job?
     choices:
       - Never
@@ -45,62 +51,32 @@ questions:
       - Up to 1 year
       - More than 1 year
 
-  - label: "If you are a full time employee in Uzbekistan, Your NET salary range per month in UZS is:"
+  - label: "What is Your NET salary range per year in USD:"
     choices:
-      - "< 3 000 000"
-      - "3 000 000 - 5 000 000"
-      - "5 000 001 - 7 000 000"
-      - "7 000 001 - 9 000 000"
-      - "9 000 001 - 11 000 000"
-      - "11 000 001 - 13 000 000"
-      - "13 000 001 - 15 000 000"
-      - "16 000 001 - 18 000 000"
-      - "18 000 001 - 20 000 000"
-      - "20 000 001 - 22 000 000"
-      - "22 000 001 - 24 000 000"
-      - "24 000 001 - 26 000 000"
-      - "> 26 000 000"
+      - "< $1,000"
+      - "$1,000 - $2,000"
+      - "$2,000 - $5,000"
+      - "$5,000 - $10,000"
+      - "$10,000 - $15,000"
+      - "$15,000 - $20,000"
+      - "$20,000 - $25,000"
+      - "$30,500 - $40,000"
+      - "$40,000 - $50,000"
+      - "$50,000 - $60,000"
+      - "$60,000 - $80,000"
+      - "$80,000 - $100,000"
+      - "> $100,000"
 
-  - label: "If you are working as a freelancer in Uzbekistan, Your salary range per day in UZS is:"
+  - label: "If you are working for foreign company, what is your working hours range?"
     choices:
-      - "< 3 000 000"
-      - "3 000 000 - 5 000 000"
-      - "5 000 001 - 7 000 000"
-      - "7 000 001 - 9 000 000"
-      - "9 000 001 - 11 000 000"
-      - "11 000 001 - 13 000 000"
-      - "13 000 001 - 15 000 000"
-      - "16 000 001 - 18 000 000"
-      - "18 000 001 - 20 000 000"
-      - "20 000 001 - 22 000 000"
-      - "22 000 001 - 24 000 000"
-      - "24 000 001 - 26 000 000"
-      - "> 26 000 000"
-
-  - label: "If you are working full-time contract outside Uzbekistan, Your gross salary range per year in USD is:"
-    choices:
-      - "< 20 000"
-      - "20 000 - 25 000"
-      - "30 500 - 40 000"
-      - "40 000 - 50 000"
-      - "50 000 - 60 000"
-      - "60 000 - 80 000"
-      - "80 000 - 100 000"
-      - "100 000 - 120 000"
-      - "120 000 - 150 000"
-      - "150 000 - 200 000"
-      - "> 200 000"
-
-  - label: "If you are working as a freelancer/contractor outside Uzbekistan, Your daily gross wage in USD is:"
-    choices:
-      - "< 200"
-      - "200 - 500"
-      - "500 - 1 000"
-      - "1 000 - 2 000"
-      - "2 000 - 3 000"
-      - "3 000 - 5 000"
-      - "5 000 - 10 000"
-      - "> 10 000"
+      - "6 AM - 3 PM"
+      - "8 AM - 5 PM"
+      - "10 AM - 7 PM"
+      - "12 PM - 9 PM"
+      - "2 PM - 11 PM"
+      - "4 PM - 1 AM"
+      - "6 PM - 3 AM"
+      - "8 PM - 5 AM"
 
   - label: What characteristics would mostly influence your decision to choose one job offer over another?
     required: true

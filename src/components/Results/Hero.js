@@ -38,6 +38,13 @@ const data = {
   contribution, what they think about AI, which tools they’re
   using, and what they want to learn next.`,
   },
+  2024: {
+    year: 2024,
+    description: `In December 2024, 312 developers from Uzbekistan
+  told us about their jobs satisfaction, salaries, and community
+  contribution, what they think about AI, which tools they’re
+  using, and what they want to learn next.`,
+  },
 }
 
 export const Hero = ({ year }) => (
