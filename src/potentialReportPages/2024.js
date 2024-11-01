@@ -1,5 +1,5 @@
 import React from "react"
-import Results from "../components/Results/index"
+import Results from "../components/Results"
 import { graphql } from "gatsby"
 
 export const query = graphql`
